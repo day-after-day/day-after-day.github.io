@@ -1,7 +1,13 @@
-_site/
-*.swp
-*.~vsd
-\#*\#
-*~
 .DS_Store
-Gemfile.lock
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
