@@ -1,5 +1,7 @@
 _site/
 *.swp
-pkg/
-test/
-.idea/
+*.~vsd
+\#*\#
+*~
+.DS_Store
+Gemfile.lock
