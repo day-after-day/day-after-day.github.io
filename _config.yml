@@ -4,23 +4,23 @@
 baseurl:
 url: http://gaofangshang.com/
 date_format: "ordinal"
-title: 码志
-subtitle: "打码改变人生"
-description: "马壮的个人博客"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang
-timezone: Asia/Shanghai
+title: 码缘
+subtitle: "会当凌绝顶，一览众山小。"
+description: "个人博客"
+keywords: 码缘, gaofangshang ,day-after-day
+timezone: Asia/wuhan
 encoding: "utf-8"
 side_bar_repo_limit: 5
 
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
-organization: zkh360.com
+author: Fangshang Gao
+organization: github.com
 organization_url: http://www.zkh360.com
-github_username: mzlogin
+github_username: day-after-day
 location: Wuhan, China
-email: chumpma@gmail.com
+email: gaofangshang9868@163.com
 
 # ---------------- #
 #    Navigation    #
@@ -88,20 +88,20 @@ comments_provider: gitalk
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username: 
+    username:
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: mzlogin
+    owner: gaofangshang
     repo: blog-comments
     oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+        client_id: 149770603b64e68a7a5a
+        client_secret: 12d7946e2a5b166e7bcf446939ea2d67d3874020
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: mzlogin
-    repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+    owner:
+    repo:
+    clientID:
+    clientSecret:
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
