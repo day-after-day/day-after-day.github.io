@@ -1,3 +1,10 @@
+---
+layout: post
+title: 终于放弃纠结，开始组件自己的博客了
+categories: Blog
+description: 先在博客上挂一点东西
+keywords: Blog, Person
+---
 ###千里之行始于足下
 磨磨唧唧，
 犹犹豫豫，
