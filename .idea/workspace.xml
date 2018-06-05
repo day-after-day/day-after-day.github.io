@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="590776b0-2a3b-4dc6-a804-35eec9a251f7" name="Default" comment="" />
+    <list default="true" id="590776b0-2a3b-4dc6-a804-35eec9a251f7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/_posts/git/2018-06-04-git.md" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,36 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2018-03-07-blog-start.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/blog/2018-03-07-blog-start.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="152">
-                <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018-06-04-git.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/git/2018-06-04-git.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="265">
-                <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2014-05-24-virtualfunctions.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/blog/2014-05-24-virtualfunctions.md">
+      <file leaf-file-name="2018-06-04-git常用操作.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/git/2018-06-04-git常用操作.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor />
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -114,23 +101,6 @@
               <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-blog" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="git" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -187,16 +157,15 @@
       <workItem from="1528120676355" duration="2902000" />
       <workItem from="1528204773944" duration="5180000" />
       <workItem from="1528212106575" duration="62000" />
-      <workItem from="1528212209888" duration="962000" />
+      <workItem from="1528212209888" duration="1524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23068000" />
+    <option name="totallyTimeSpent" value="23630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1167" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15649867" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -206,7 +175,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32884902" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32735425" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -225,7 +194,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_cycle/2013-12-22-HFDP-Notes3.md" />
     <entry file="file://$PROJECT_DIR$/_wiki/visual-studio-code.md" />
     <entry file="file://$PROJECT_DIR$/_posts/blog/2014-05-24-virtualfunctions.md" />
     <entry file="file://$PROJECT_DIR$/_cycle/2015-10-31-pits-in-vimscript.md" />
@@ -328,13 +296,6 @@
     <entry file="file://$PROJECT_DIR$/_wiki/visual-studio-code.md" />
     <entry file="file://$PROJECT_DIR$/_cycle/2015-10-31-pits-in-vimscript.md" />
     <entry file="file://$PROJECT_DIR$/_cycle/2017-01-01-my-2016.md" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-12-03-tcp-connect-between-android-emulators.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -350,18 +311,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/blog/2014-05-24-virtualfunctions.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/git/2018-06-04-git.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="14" lean-forward="true" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/git/2018-06-04-git.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1083">
+            <caret line="57" column="88" selection-start-line="57" selection-start-column="88" selection-end-line="57" selection-end-column="88" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -380,13 +343,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/git/2018-06-04-git.md">
+    <entry file="file://$PROJECT_DIR$/_posts/blog/2014-05-24-virtualfunctions.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="265">
-            <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
-          </first_editor>
+          <first_editor />
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/git/2018-06-04-git常用操作.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
