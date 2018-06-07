@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="590776b0-2a3b-4dc6-a804-35eec9a251f7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/git/2018-06-04-git常用操作.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/git/2018-06-04-git常用操作.md" afterDir="false" />
-    </list>
+    <list default="true" id="590776b0-2a3b-4dc6-a804-35eec9a251f7" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -33,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/_posts/git/2018-06-04-git常用操作.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="380">
+              <first_editor relative-caret-position="594">
                 <caret line="119" column="5" lean-forward="true" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
               </first_editor>
               <second_editor />
@@ -99,8 +96,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-58" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="325" />
     <option name="y" value="20" />
     <option name="width" value="1709" />
     <option name="height" value="1000" />
@@ -196,16 +193,15 @@
       <workItem from="1528260060074" duration="51000" />
       <workItem from="1528282860872" duration="10000" />
       <workItem from="1528375101306" duration="3627000" />
-      <workItem from="1528379735014" duration="2140000" />
+      <workItem from="1528379735014" duration="2303000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30141000" />
+    <option name="totallyTimeSpent" value="30304000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-46" y="16" width="1367" height="800" extended-state="1" />
-    <editor active="true" />
+    <frame x="260" y="16" width="1367" height="800" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13298272" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -386,7 +382,7 @@
     <entry file="file://$PROJECT_DIR$/_posts/git/2018-06-04-git常用操作.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="380">
+          <first_editor relative-caret-position="594">
             <caret line="119" column="5" lean-forward="true" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
           </first_editor>
           <second_editor />
