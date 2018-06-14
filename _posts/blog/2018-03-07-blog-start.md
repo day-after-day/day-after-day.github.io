@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 终于放弃纠结，开始组件自己的博客了
+title: 第一次记录
 categories: Blog
 description: 先在博客上挂一点东西
 keywords: Blog, Person
