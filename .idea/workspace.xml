@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="590776b0-2a3b-4dc6-a804-35eec9a251f7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/blog/2018-03-07-blog-start.md" afterPath="$PROJECT_DIR$/_posts/blog/2018-03-07-blog-start.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/git/2018-06-04-git常用操作.md" afterPath="$PROJECT_DIR$/_posts/git/2018-06-04-git常用操作.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,12 +16,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2018-06-04-git常用操作.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2018-06-04-git常用操作.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/git/2018-06-04-git常用操作.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="256">
-                <caret line="45" column="2" lean-forward="false" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
+              <first_editor relative-caret-position="50">
+                <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -44,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014-05-24-virtualfunctions.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2014-05-24-virtualfunctions.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/blog/2014-05-24-virtualfunctions.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-6400">
+              <first_editor relative-caret-position="-5500">
                 <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
                 <folding />
               </first_editor>
@@ -108,8 +106,8 @@
         <option value="$PROJECT_DIR$/_posts/git/2018-06-04-git实用操作指令.md" />
         <option value="$PROJECT_DIR$/_posts/git/test.md" />
         <option value="$PROJECT_DIR$/_posts/git/2018-06-04-git.md" />
-        <option value="$PROJECT_DIR$/_posts/git/2018-06-04-git常用操作.md" />
         <option value="$PROJECT_DIR$/_posts/blog/2018-03-07-blog-start.md" />
+        <option value="$PROJECT_DIR$/_posts/git/2018-06-04-git常用操作.md" />
       </list>
     </option>
   </component>
@@ -234,12 +232,12 @@
       <workItem from="1528518048988" duration="36000" />
       <workItem from="1528594260051" duration="682000" />
       <workItem from="1528731191926" duration="863000" />
-      <workItem from="1528960990017" duration="2508000" />
+      <workItem from="1528960990017" duration="2910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35785000" />
+    <option name="totallyTimeSpent" value="36187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="105" y="26" width="1710" height="1000" extended-state="0" />
@@ -412,17 +410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/git/2018-06-04-git常用操作.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="256">
-            <caret line="45" column="2" lean-forward="false" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/blog/2018-03-07-blog-start.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -442,8 +429,19 @@
     <entry file="file://$PROJECT_DIR$/_posts/blog/2014-05-24-virtualfunctions.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-6400">
+          <first_editor relative-caret-position="-5500">
             <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/git/2018-06-04-git常用操作.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="50">
+            <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
