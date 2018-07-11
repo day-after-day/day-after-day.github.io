@@ -2,46 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="590776b0-2a3b-4dc6-a804-35eec9a251f7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/images/blog/1024-gold.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/1024-kuaishou.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/1024-meituan.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/1024-sogou.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/1024-vote.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/2016-plan-progress.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/3w-programmer.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/Andy-Lau.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/Diamond.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/Sharp-Brother.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/books-and-movies.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/chenmodedaduoshu.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/doubt.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/encourage.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/excellence.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/fake.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/github-contributions-2016.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/hackathon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/jestem-bs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/jestem-poem.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/jestem.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/kepu.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/marathon-2016.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/meet-problem.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/offline.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/overtime.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/qianzou.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/release-books.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/request-love.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/solve-method1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/solve-method2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/the-kite-runner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/three-gooses.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/three-steps.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/time-manage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/two-circles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/two-steps.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/wangxiaobozhimu.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog/wudaokou.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/blog/2018-07-11-set-env.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/blog/2018-07-11-set-env.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -83,8 +44,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/blog/2018-07-11-set-env.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-387">
-                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <first_editor relative-caret-position="76">
+                <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
               </first_editor>
               <second_editor />
             </state>
@@ -261,24 +222,25 @@
       <workItem from="1528731191926" duration="863000" />
       <workItem from="1528960990017" duration="5616000" />
       <workItem from="1529042529433" duration="5548000" />
-      <workItem from="1531296847918" duration="798000" />
+      <workItem from="1531296847918" duration="1061000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45239000" />
+    <option name="totallyTimeSpent" value="45502000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="122" y="29" width="1582" height="999" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15867876" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15867876" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.27093023" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.27093023" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -507,8 +469,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/blog/2018-07-11-set-env.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-387">
-            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <first_editor relative-caret-position="76">
+            <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
           </first_editor>
           <second_editor />
         </state>
