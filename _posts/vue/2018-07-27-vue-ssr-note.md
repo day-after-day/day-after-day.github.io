@@ -1,3 +1,12 @@
+---
+layout: post
+title: vue的computed和watch笔记
+categories: vue
+description: 记下一些值得思考的部分
+keywords: Vue, computed,watch
+---
+
+
 
 computed
 ====
