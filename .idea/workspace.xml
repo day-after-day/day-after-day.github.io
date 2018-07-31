@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="590776b0-2a3b-4dc6-a804-35eec9a251f7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/blog/2018-07-31-npm-publish.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/blog/2018-07-31-npm-publish.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_source-link/date-string-transform.script.js" beforeDir="false" />
-    </list>
+    <list default="true" id="590776b0-2a3b-4dc6-a804-35eec9a251f7" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -58,8 +53,8 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="31" />
+            <state relative-caret-position="246">
+              <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -269,16 +264,15 @@
       <workItem from="1532766430238" duration="673000" />
       <workItem from="1532774138529" duration="25000" />
       <workItem from="1532911864980" duration="4048000" />
-      <workItem from="1533009372559" duration="9204000" />
+      <workItem from="1533009372559" duration="9482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84426000" />
+    <option name="totallyTimeSpent" value="84704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="430" y="4" width="1376" height="999" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18310912" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -553,8 +547,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="31" />
+        <state relative-caret-position="246">
+          <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
         </state>
       </provider>
     </entry>
