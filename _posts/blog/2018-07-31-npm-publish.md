@@ -61,6 +61,7 @@ npm登陆：`npm login`；输入用户名、密码和邮箱
  发包： `npm publish`
 
 
+
 3,注意事项
 ----
 如果你想发布一个优质的资源包，那么这些基本操作很有必要：
@@ -68,9 +69,11 @@ npm登陆：`npm login`；输入用户名、密码和邮箱
 * es6转码es5
 * 尽量上传模块化导出版本(默认)和script标签直接导出版本，方便使用者自己选择。
 
+
+
 4,最后
 ----
-附上我刚上传的[日期时间格式与字符串格式之间的相互转化插件包](https://www.npmjs.com/package/date-string-transform)
+附上我刚上传的[日期时间格式与字符串格式之间的相互转化插件包](https://www.npmjs.com/package/date-string-transform),欢迎使用
 
 
 
