@@ -99,7 +99,7 @@ gitment:
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: gaofangshang9868@163.com
-    repo: gaofangshang9868@163.com
+    repo: day-after-day.github.io
     clientID: 2514abb7ee41ef17823c
     clientSecret: ba0155abbb3037fd149f7fc26844428fb8ae88dc
 # 在使用其它评论组件时可点击显示 Disqus
