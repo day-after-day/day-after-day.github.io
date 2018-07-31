@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 向npm上传自定义插件包
+title: npm上传自定义插件包
 categories: Blog
 description: 最近突然想在npm上上传自己的插件包，下面记录一下插件包的完整上传流程
 keywords: Blog, npm, publish
@@ -73,7 +73,7 @@ npm登陆：`npm login`；输入用户名、密码和邮箱
 
 4,最后
 ----
-附上我刚上传的[日期时间格式与字符串格式之间的相互转化插件包](https://www.npmjs.com/package/date-string-transform),欢迎使用
+附上我刚上传的[日期时间格式与字符串格式之间的相互转化插件包](https://www.npmjs.com/package/date-string-transform),欢迎使用~
 
 
 
