@@ -98,7 +98,7 @@ gitment:
         client_secret:
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: gaofangshang9868@163.com
+    owner: day-after-day
     repo: day-after-day.github.io
     clientID: 2514abb7ee41ef17823c
     clientSecret: ba0155abbb3037fd149f7fc26844428fb8ae88dc
