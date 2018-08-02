@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-description: 会当凌绝顶，一览众山小。
+description: 会当凌绝顶，一览众山小~
 keywords: 码缘, gaofangshang ,day-after-day
 comments: true
 menu: 关于
