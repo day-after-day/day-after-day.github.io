@@ -53,8 +53,8 @@ npm登陆：`npm login`；输入用户名、密码和邮箱
 -----
 修改版本号： 
 
-    npm version 1.1.0       // 直接指定新版本的版本号
-    npm version patch       // 小版本号默认加1
+    npm version 1.1.0       // 可以直接指定新版本的版本号
+    npm version patch       // 也可以让小版本号默认加1，二选一即可
     
  当然你也可以在package.json中直接修改
  
