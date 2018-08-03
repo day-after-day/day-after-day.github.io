@@ -12,17 +12,17 @@ sublime text3初始化配置
 
 2,常用插件
 ----
-•HTML-CSS-JS Prettify		
+•HTML-CSS-JS Prettify       
 全能序列化
 
-•CSS Format		
+•CSS Format         
 css序列化插件，支持默认多种序列方案，还可以自己配置自己喜欢的
 
-•JsFormat		
+•JsFormat       
 js序列化，能排在下载插件前25位，好的话就不用说了
 
 
-•DocBlockr				
+•DocBlockr      		
 DocBlocker 是在Sublime平台上开发一款自动补全注释插件，支持JavaScript (including ES6), PHP, ActionScript, Haxe, CoffeeScript, TypeScript, Java, Apex, Groovy, Objective C, C, C++ and Rust.等众多语言
 ![](/images/sublime/DocBlockr.gif)
 ![](/images/sublime/DocBlockr2.gif)
@@ -46,7 +46,7 @@ Vue高亮插件，它不仅可以使代码高亮起来，还能进行代码智�
 
 5,markdown相关插件
 ----
-•Markdown Editing
+•Markdown Editing       
 Markdown Editing并不只是一个markdown的主题插件		
 它自定义许多markdown的快捷键,例如ctrl+2是二级标题,还有许多可以看配置文件和项目的[github主页](https://github.com/SublimeText-Markdown/MarkdownEditing)		
 推荐配置
@@ -65,7 +65,7 @@ Markdown Editing并不只是一个markdown的主题插件
         "mde.keep_centered": true, // 可以保持你正在编辑的行始终处于屏幕的中间
 
 
-•MarkdownLivePreview		
+•MarkdownLivePreview        	
 MarkdownLivePreview可以实现实时预览		
 在首选项->Package Setting里修改MarkdownLivePreview的user配置文件,设置在打开时同步预览
 
