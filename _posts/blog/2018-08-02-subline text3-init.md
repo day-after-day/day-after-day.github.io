@@ -1,3 +1,11 @@
+---
+layout: post    
+title: sublime初始化        
+categories: Blog        
+description: 记录几款实用的sublime插件包。     
+keywords:  sublime, package        
+---
+
 sublime text3初始化配置
 ====
 
