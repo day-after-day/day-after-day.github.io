@@ -4,8 +4,8 @@ sublime text3初始化配置
 1,如何安装插件
 ----
 * Ctrl+Shift+P调出命令面板 
-* 输入install 调出 Install Package 选项并回车		
-	 如果直接出现package列表，则可开始下一步；		
+* 输入install 调出 Install Package 选项并回车        
+	 如果直接出现package列表，则可开始下一步；       		
      若原有的列表 消失，则重复上述操作，列表即可出现。
 * 接下来输入需要的插件名称，然后选择即可安装~
 
