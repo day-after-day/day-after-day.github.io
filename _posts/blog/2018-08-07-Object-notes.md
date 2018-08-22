@@ -14,7 +14,7 @@ JavaScript主要有七种基本类型：string, number, boolean, null,undefined,
 * 简单基本类型本身并不是对象----“JavaScript中万物皆对象”显然是错的。 
 
 `typeof null` 有时会返回`"object"`，这其实是语言本身的一个BUG。       
-实际上null本身是基本类型。---- 原理是这样：不同的对象再底层都表示为二进制，再JavaScript中二进制前三位都为0的话会被判断为object类型。
+实际上null本身是基本类型。---- 原理是这样：不同的对象在底层都表示为二进制，在JavaScript中二进制前三位都为0的话会被判断为object类型。
 由于null的二进制表示全是0，自然前三位也是0，所以执行typeof时会返回`"object"`。
 
 
