@@ -107,3 +107,34 @@ myObject.a是一次属性访问，实际上是实现了`[[Get]]`操作。
     it.next();  // {done: true}
     
 还有部分**给对象自定义迭代器**的代码这里就不记录了
+
+7，原型链关联
+----
+
+	function Bar () { }
+    function Foo () { }
+    
+把Bar.prototype关联到Foo.prototype的方法：
+
+	//ES6之前：创建一个新对象，抛弃旧对象
+    Bar.prototype = Object.create( Foo.prototype );
+    
+    //ES6之后，可以直接修改现有的Bar.prototype
+    Object.setPrototypeOf( Bar.prototype, Foo.prototype );
+    
+**如何检查两个对象是否通过原型链相关联？**
+
+	a instanceof Foo 	// 这个方法只能处理对象和函数之间的关系
+    Foo.prototype.isPrototypeOf( a );
+    
+    
+`instanceof`回答的问题是：在a的整条[[Prototype]]链中是否有指向Foo.prototype的对象？ 
+`isPrototypeOf`回答的问题是：在a的整条[[Prototype]]链中是否出现过Foo.prototype？
+
+	Object.getPrototypeOf( a ) 
+
+直接获取对象`a`的`[[prototype]]`链
+
+
+
+
