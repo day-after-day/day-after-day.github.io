@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 对象初始化
+title: Chrome浏览器下的input框设置
 categories: Blog
-description: 记录JavaScript中对象的相关知识点进。
-keywords:  object
+description: Chrome浏览器下的input框设置。
+keywords:  chrome, input
 ---
 
 
