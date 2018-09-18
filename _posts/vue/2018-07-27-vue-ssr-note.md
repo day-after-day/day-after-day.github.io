@@ -112,7 +112,7 @@ watch监听数据，页面刚开始渲染时，是不会执行的。
           handler () {
             console.log('obj is changed')
           },
-          imemediate: true,
+          immediate: true,
       }
       
  对于对象`obj:{a:1}`直接给a赋值`obj.a=44`，watch监听obj是监听不到的,测试可以使用深度监听`deep:true`。        
