@@ -1,4 +1,10 @@
-﻿﻿﻿﻿﻿﻿---layout: posttitle: 强制类型转化categories: Blogdescription: 强制类型转化keywords:  ES5---
+﻿﻿﻿﻿﻿﻿---
+layout: post
+title: 强制类型转化
+categories: Blog
+description: 强制类型转化
+keywords:  ES5
+---
 
 强制类型转化
 
