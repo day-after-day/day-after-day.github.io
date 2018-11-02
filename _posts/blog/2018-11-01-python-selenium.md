@@ -169,6 +169,7 @@ eg:
     form = ff.find_element_by_name('survey')
     form.submit()
 
-N，关闭浏览器
+6，关闭浏览器
 ----
-driver.quit()
+
+    driver.quit()
