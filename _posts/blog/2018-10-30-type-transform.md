@@ -1,12 +1,12 @@
-﻿﻿﻿﻿﻿﻿---
-layout: post
-title: 强制类型转化
-categories: Blog
-description: 强制类型转化
-keywords:  ES5
+﻿﻿---
+layout: post
+title: 强制类型转化笔记
+categories: python
+description: 强制类型转化笔记
+keywords: transform
 ---
 
-强制类型转化
+强制类型转化--章节笔记
 
 1,JSON.string
 -----

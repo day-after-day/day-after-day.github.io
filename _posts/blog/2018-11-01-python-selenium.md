@@ -166,7 +166,7 @@ eg:
 其他操作
 
     # 表单元素
-    form = ff.find_element_by_name('survey')
+    form = driver.find_element_by_name('survey')
     form.submit()
 
 6，关闭浏览器
