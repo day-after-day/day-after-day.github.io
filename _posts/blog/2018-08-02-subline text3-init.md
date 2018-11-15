@@ -18,39 +18,58 @@ sublime text3初始化配置
 * 接下来输入需要的插件名称，然后选择即可安装~
 
 
-2,常用插件
+2,前端必备铁三角
 ----
-•HTML-CSS-JS Prettify       
-全能序列化
+* Emmet
+Emmet 快速生成HTML代码。 附带css提示功能
+例如`!+Tab键`初始化最基础的html，以及`div.box+Tab键`快速生成class名为box的div等实用功能。
 
-•CSS Format         
-css序列化插件，支持默认多种序列方案，还可以自己配置自己喜欢的
+相关文档：
+[sublime text3---Emmet：HTML/CSS代码快速编写神器](http://www.cnblogs.com/EnSnail/p/6294897.html)
+[Emmet — the essential toolkit for web-developers](https://docs.emmet.io/)
 
-•JsFormat       
-js序列化，能排在下载插件前25位，好的话就不用说了
-
+* sublimeCodeIntel
+sublimeCodeIntel ：js代码提示工具
 
 •DocBlockr      	
-DocBlocker 是在Sublime平台上开发一款自动补全注释插件，支持JavaScript (including ES6), PHP, ActionScript, Haxe, CoffeeScript, TypeScript, Java, Apex, Groovy, Objective C, C, C++ and Rust.等众多语言
-![](/images/sublime/DocBlockr.gif)
-![](/images/sublime/DocBlockr2.gif)
-![](/images/sublime/DocBlockr3.gif)
-![](/images/sublime/DocBlockr4.gif)
+DocBlocker ：一款自动补全注释插件，支持众多语言
 
-•Emmet      
-Emmet的前身是大名鼎鼎的Zen coding，如果你从事Web前端开发的话，对该插件一定不会陌生。它使用仿CSS选择器的语法来生成代码，大大提高了HTML/CSS代码编写的速度
-![](/images/sublime/Emmet.jpg)
-![](/images/sublime/Emmet2.jpg)
-![](/images/sublime/Emmet3.jpg)
-
-•JavaScript Completions         
-js最基本的api快查片段
-![](/images/sublime/JavaScript%20Completions.gif)
-
-3,vue相关插件
+3,vue项目开发相关插件
 ----
-•Vue Syntax Highlight		
+* Vue Syntax Highlight
 Vue高亮插件，它不仅可以使代码高亮起来，还能进行代码智能提示。
+
+*Syntax Highlighting for Sass
+保持<style lang="scss" scoped>中的scss语法高亮
+
+* sass
+sass/scss语法提示工具
+
+4，其他实用插件
+------
+上面只介绍了开发需要用的最基础插件，但是还有很多好用的插件能提高我们的敲代码，检查速率。
+
+* BracketHighlighter
+高亮显示[], (), {}, “”, ”, <tag></tag>符号，便于查看起始和结束标记。
+
+* ColorPicker
+调色板，需要输入颜色时，可直接选取颜色。使用快捷键ctrl+shift+c即可打开调色板
+（ps:若打不开调色板，可能是快捷键冲突导致。需要前往`Preferences→Key Bindings-User`中配置）
+
+* AutoFileName
+文件路径提示
+
+* Sidebar Enhancements
+增强侧栏文件右键功能，比如复制文件路径
+
+* CSS Format
+整理scss/css样式，代码格式化为展开、紧凑、压缩多种可选的形式
+ps:对于.vue文件无法生效
+
+* Trailing spaces
+检测并且高亮显示 和 一键删除代码的空格，保存时自动删除多余空格.
+功能入口：edit→Trailing Spaces→Delete
+
 
 5,markdown相关插件
 ----
@@ -82,5 +101,16 @@ MarkdownLivePreview可以实现实时预览
 4,热键冲突
 ----
 ctrl+\`  ---- sublime呼出控制台的快捷键，与*搜狗浏览器*的老板键：ctrl+~ 冲突
+
+
+
+5,BUG解决
+-----
+报错信息：
+[sublime there are no packages](https://www.cnblogs.com/fayin/p/6414735.html)
+
+6,相关介绍文章：
+------
+[https://blog.csdn.net/huohao_blogs/article/details/76120756](https://blog.csdn.net/huohao_blogs/article/details/76120756)
 
 
