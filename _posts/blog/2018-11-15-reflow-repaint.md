@@ -118,3 +118,10 @@ keywords: html, reflow, repaint
 
         // change the property
         $targetElem.css('margin-left', 50);
+
+
+（7）相关参考文章
+-----
+[https://blog.csdn.net/osdfhv/article/details/52159341](https://blog.csdn.net/osdfhv/article/details/52159341)
+
+[https://www.cnblogs.com/peteremperor/p/6285449.html](https://www.cnblogs.com/peteremperor/p/6285449.html)
