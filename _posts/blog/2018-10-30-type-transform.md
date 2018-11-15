@@ -1,4 +1,4 @@
-﻿﻿---
+﻿---
 layout: post
 title: 强制类型转化笔记
 categories: python
