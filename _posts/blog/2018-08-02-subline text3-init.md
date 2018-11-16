@@ -21,7 +21,7 @@ sublime text3初始化配置
 2,前端必备铁三角
 ----
 * Emmet
-Emmet 快速生成HTML代码。 附带css提示功能
+快速生成HTML代码。 附带css提示功能
 例如`!+Tab键`初始化最基础的html，以及`div.box+Tab键`快速生成class名为box的div等实用功能。
 
 相关文档：
@@ -29,10 +29,14 @@ Emmet 快速生成HTML代码。 附带css提示功能
 [Emmet — the essential toolkit for web-developers](https://docs.emmet.io/)
 
 * sublimeCodeIntel
-sublimeCodeIntel ：js代码提示工具
+js代码提示工具
 
 * DocBlockr      	
-DocBlocker ：一款自动补全注释插件，支持众多语言
+一款自动补全注释插件，支持众多语言
+
+* sublimeTmpl
+文件模板插件      
+[创建vue模板](https://www.jianshu.com/p/54f7a2f9b30d)
 
 3,vue项目开发相关插件
 ----
@@ -59,8 +63,22 @@ sass/scss语法提示工具
 * AutoFileName
 文件路径提示
 
-* Sidebar Enhancements
+/** Sidebar Enhancements
+(此插件会导致原来的右键功能`Open Containing Folder`丧失，而且删除文件还会增加一步*确认删除*，不建议安装)
 增强侧栏文件右键功能，比如复制文件路径
+配置：
+
+    [
+        { "keys": ["ctrl+shift+c"], "command": "copy_path" },
+        //chrome
+        { "keys": ["f2"], "command": "side_bar_files_open_with",
+                "args": {
+                    "paths": [],
+                    "application": "C:\\Users\\jeffj\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe",
+                    "extensions":".*"
+                }
+         }
+    ]*/
 
 * CSS Format
 整理scss/css样式，代码格式化为展开、紧凑、压缩多种可选的形式
