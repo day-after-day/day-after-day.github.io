@@ -31,7 +31,7 @@ Emmet 快速生成HTML代码。 附带css提示功能
 * sublimeCodeIntel
 sublimeCodeIntel ：js代码提示工具
 
-•DocBlockr      	
+* DocBlockr      	
 DocBlocker ：一款自动补全注释插件，支持众多语言
 
 3,vue项目开发相关插件
@@ -39,7 +39,7 @@ DocBlocker ：一款自动补全注释插件，支持众多语言
 * Vue Syntax Highlight
 Vue高亮插件，它不仅可以使代码高亮起来，还能进行代码智能提示。
 
-*Syntax Highlighting for Sass
+* Syntax Highlighting for Sass
 保持<style lang="scss" scoped>中的scss语法高亮
 
 * sass
@@ -70,46 +70,51 @@ ps:对于.vue文件无法生效
 检测并且高亮显示 和 一键删除代码的空格，保存时自动删除多余空格.
 功能入口：edit→Trailing Spaces→Delete
 
+5,terminal插件
+------
+在markdown中，打开一个当前位置的新窗口     
+先下载cmder：
+[cmder](https://github-production-release-asset-2e65be.s3.amazonaws.com/11276147/b222f850-32b5-11e4-873b-f061698faec1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20181115%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20181115T070131Z&X-Amz-Expires=300&X-Amz-Signature=edb332c31d980457b4e5d456f289ef403823b48fd86ff0a5549b3efb0ed78f7c&X-Amz-SignedHeaders=host&actor_id=26592626&response-content-disposition=attachment%3B%20filename%3Dcmder.zip&response-content-type=application%2Foctet-stream)
+[cmder_mini](https://github-production-release-asset-2e65be.s3.amazonaws.com/11276147/b23fdb3c-32b5-11e4-8166-5d2f2bc3b251?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20181115%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20181115T070123Z&X-Amz-Expires=300&X-Amz-Signature=429fec363033d4fec5deab16ed5ce68dc8d38e32f59e1ea922005c5a17b746f2&X-Amz-SignedHeaders=host&actor_id=26592626&response-content-disposition=attachment%3B%20filename%3Dcmder_mini.zip&response-content-type=application%2Foctet-stream)
 
-5,markdown相关插件
+配置：`Preferences > Package setting > Terminal > Setting -User`
+
+    {
+      // window下终端路径
+      // "terminal": "F:\\cmder_mini\\Cmder.exe",
+      "terminal": "F:\\cmder\\Cmder.exe",
+      //  window下终端参数
+      "parameters": ["/START", "%CWD%"]
+    }
+
+默认快捷键：      
+`ctrl+shift+t` 打开文件所在路径的cmder窗口
+
+
+6,markdown插件
 ----
-•Markdown Editing       
+* Markdown Editing       
 Markdown Editing并不只是一个markdown的主题插件		
 它自定义许多markdown的快捷键,例如ctrl+2是二级标题,还有许多可以看配置文件和项目的[github主页](https://github.com/SublimeText-Markdown/MarkdownEditing)		
-推荐配置
-
-		"color_scheme": "Packages/Boxy Theme/schemes/Boxy Monokai.tmTheme", // 修改风格的主题,我这里是sublime的boxy主题自带的,默认有这几种主题 
-        //"color_scheme": "Packages/MarkdownEditing/MarkdownEditor.tmTheme", 
-        // "color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Dark.tmTheme",
-        // "color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Yellow.tmTheme", 
-        "highlight_line": true, // 高亮正在编辑的行 
-        "line_numbers": true, // 显示行号 
-        "tab_size": 4, // tab宽度 
-        "translate_tabs_to_spaces": true, // tab转换为空格 
-        "trim_trailing_white_space_on_save": true, // 保存时去掉行尾空格 
-        "word_wrap": true, // 自动换行 
-        "wrap_width": "auto", // 换行的宽度,默认80会造成左侧大量留白 
-        "mde.keep_centered": true, // 可以保持你正在编辑的行始终处于屏幕的中间
 
 
-•MarkdownLivePreview        	
-MarkdownLivePreview可以实现实时预览		
-在首选项->Package Setting里修改MarkdownLivePreview的user配置文件,设置在打开时同步预览
 
-	"markdown_live_preview_on_open": true
+* MarkdownPreview        	
+Mardown Preview支持在浏览器中预览markdown文件，还支持三种预览方式：github(在线),gitlab(在线),markdown（本地）。       
+使用：`ctrl+shift+p`, 输入`markdown previewer`/`mdp`，回车,选择一种预览方式。
+设置快捷键:` { "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"}  }`
 
-4,热键冲突
+7,热键冲突
 ----
 ctrl+\`  ---- sublime呼出控制台的快捷键，与*搜狗浏览器*的老板键：ctrl+~ 冲突
 
 
-
-5,BUG解决
+8,BUG解决
 -----
 报错信息：
 [sublime there are no packages](https://www.cnblogs.com/fayin/p/6414735.html)
 
-6,相关介绍文章：
+9,相关介绍文章：
 ------
 [https://blog.csdn.net/huohao_blogs/article/details/76120756](https://blog.csdn.net/huohao_blogs/article/details/76120756)
 
