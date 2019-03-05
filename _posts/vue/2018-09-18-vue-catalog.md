@@ -1,7 +1,7 @@
 ---
 layout: post
 title: vue项目结构
-categories: Blog
+categories: vue
 description: vue项目结构。
 keywords:  vue, vue-cli
 ---

@@ -31,4 +31,17 @@ keywords: Blog, chrome
 ----
  `CTRL + SHIFT + del`  快速打开清除缓存页面，这样可以强制清除所有的图片和账号地址记录      
 `CTRL + S ` 将页面保存下来，实际保存的为一个html，附带相应的js，img等。可以利用这个功能扣页面。
-                                                                                                                                                                                                             
+
+5,导出拓展程序
+----
+版本
+![](/images/blog/chrome70.0.png)
+
+需要先开启开发者模式
+![](/images/blog/chrome-kaifa.png)
+
+[Chrome怎么导出扩展程序（插件）为crx文件](https://jingyan.baidu.com/article/9158e0004ff9bba25512284d.html)      
+
+6，安装拓展程序
+----
+[安装Chrome第三方插件](https://jingyan.baidu.com/article/e5c39bf56286ae39d6603374.html)
