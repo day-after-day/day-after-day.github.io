@@ -6,9 +6,11 @@ description: 将存在父子级关系的数据转化为树状结构
 keywords: data
 ---
 
-由于产品要求按照树状结构展示，于是自己将element-ui的tree组件修改了一下，二次封装成了一个[简单的树状表格组件](http://gaofangshang.com//2018/08/01/reset-axios/)，需要的数据必须是树状结构。
+自己将element-ui的tree组件修改了一下，二次封装成了一个[简单的树状表格组件](http://gaofangshang.com//2018/08/01/vue-tree-table/)，
 
-后端不肯转换数据，于是只好自己转换,顺手封装。
+但是组件需要树状结构的数据，所以需要转换。
+
+
 
 
 源数据：
@@ -83,6 +85,13 @@ dataToTree.js中
 
         if(!run(tree)){
           tree.push(item)
+          for(let i=tree.length -1;i>=0;i--){
+            let val = tree[i];
+            if(item[id] === val[parentId]){
+              item[children] ?  item[children].push(val) : item[children] = [val];
+              tree.splice(i,1)
+            }
+          }
         }
       })
       return tree
