@@ -1,43 +1,1 @@
----
-layout: post
-title: vue路由配置
-categories: vue
-description: vue路由配置
-keywords:  vue, vue-router
----
-
-vue项目也做了不少了，最近才发现vue-router中除了常用的几个属性外，还有几个没有用过的属性，正好总结一下。
-
-    export default () => {
-        return new Router({
-            routes,
-            mode: 'history', // history模式
-
-            base: '/base/'， // 基础路径，每当使用vue官方router的api跳转时，都会自动在路径前面加上/base/，同时原来的路径也依旧存在。
-                                eg： /login    =>     /base/login, 所有到/login的link，最终都会变成到 /base/login
-
-            linkActiveClass: 'active-link',             // 对 与当前路由匹配的 <router-link/>标签class的设定。
-                                                        // eg: 在/login下， <router-link to="/login"/>的class名会带有，active-link， exact-active-link
-
-            linkExactActiveClass: 'exact-active-link',  // 精确指定。 eg: 在/login/user 下，  <router-link to="/login"/>标签带有active-link的class名
-                                                        //              <router-link to="/login/user"/>标签带有exact-active-link的class名
-
-            scrollBehavior(to, from, savedPosition) {   // 对于每个页面滚动条位置的记录。可以在回到某个路由时，自动处于离开时的滚动条位置
-                if(savedPosition){
-                    return savedPosition
-                }else{
-                    return {x:0, y:0}
-                }
-             },
-             parseQuery(query){                 // 对于地址中的query的相关操作，不常用
-
-             },
-             stringifyQuery(obj){                  // 对于地址中的query的相关操作，不常用
-
-             }，
-
-             fallback: true,
-
-        })
-
-    }
+﻿---layout: posttitle: vue路由配置categories: vuedescription: vue路由配置keywords:  vue, vue-router---vue项目也做了不少了，最近才发现vue-router中除了常用的几个属性外，还有几个没有用过的属性，正好总结一下。直接上代码：    export default () => {        return new Router({            routes,            mode: 'history', // history模式            base: '/base/'， // 基础路径，每当使用vue官方router的api跳转时，都会自动在路径前面加上/base/，同时原来的路径也依旧存在。                                eg： /login    =>     /base/login, 所有到/login的link，最终都会变成到 /base/login            linkActiveClass: 'active-link',             // 对 与当前路由匹配的 <router-link/>标签class的设定。                                                        // eg: 在/login下， <router-link to="/login"/>的class名会带有，active-link， exact-active-link            linkExactActiveClass: 'exact-active-link',  // 精确指定。 eg: 在/login/user 下，  <router-link to="/login"/>标签带有active-link的class名                                                        //              <router-link to="/login/user"/>标签带有exact-active-link的class名            scrollBehavior(to, from, savedPosition) {   // 对于每个页面滚动条位置的记录。可以在回到某个路由时，自动处于离开时的滚动条位置                if(savedPosition){                    return savedPosition                }else{                    return {x:0, y:0}                }             },             parseQuery(query){                 // 对于地址中的query的相关操作，不常用             },             stringifyQuery(obj){                  // 对于地址中的query的相关操作，不常用             }，             fallback: true,        })    }对于route    {        path: '/app/:id',           // 动态路由匹配 ，匹配路由/app/xxx。 注意：此时/app是匹配不到任何路由的, 参数        props: true,                // 配合动态路由匹配，在对应路由中添加props:['id']， 会自动将路由匹配参数传到props中                                        好处是：解耦，增强组件的复用性。 因为this.$route在每个组件中都是公用的，不建议在各自的组件里面使用。                                        其他形式：   props:{id: '456'} . 此时会覆盖动态路由匹配的参数，实际获取到的id就是'456'                                                    props:(route) => ({id:route.query.b}) 此时会覆盖动态路由匹配的参数，实际获取到的id为query.a。                                                                                            如?/app/123?a=111&b=222, this.id为222        name: 'app',                // 路由的name属性， 有此属性时可以通过 {name: 'app'}跳转. 注意：对于用了动态路由匹配的路由，不可用name进行跳转，会出现异常        meta: {                     // 路由元信息，里面可以自定义各种属性，用以配合title，描述，cookie验证等功能            title: '首页',            description: 'asdasd',            ath: true        }    }
