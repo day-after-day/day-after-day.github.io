@@ -31,16 +31,16 @@ nginx 不仅支持 http 协议，还支持 https（即在ssl协议上传输http�
 ----
 直接下载.tar.gz安装包，地址：[https://nginx.org/en/download.html](https://nginx.org/en/download.html)
 
-    wget -c https://nginx.org/download/nginx-1.10.1.tar.gz
+    wget -c https://nginx.org/download/nginx-1.15.11.tar.gz
 
 解压
 
-    tar -zxvf nginx-1.10.1.tar.gz
+    tar -zxvf nginx-1.15.11.tar.gz
 
 使用默认配置
 
-    cd nginx-1.10.1
-    ./configure
+    cd nginx-1.15.11
+    ./configure --with-http_ssl_module
 
 编译安装
 
