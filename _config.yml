@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://gaofangshang.com/
+url:
 date_format: "ordinal"
 title: 码缘
 subtitle: "会当凌绝顶，一览众山小。"

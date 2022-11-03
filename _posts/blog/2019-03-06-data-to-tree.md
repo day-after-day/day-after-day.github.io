@@ -6,7 +6,7 @@ description: 将存在父子级关系的数据转化为树状结构
 keywords: data
 ---
 
-自己将element-ui的tree组件修改了一下，二次封装成了一个[简单的树状表格组件](http://gaofangshang.com//2018/08/01/vue-tree-table/)，
+自己将element-ui的tree组件修改了一下，二次封装成了一个[简单的树状表格组件](/2018/08/01/vue-tree-table/)，
 
 但是组件需要树状结构的数据，所以需要转换。
 
